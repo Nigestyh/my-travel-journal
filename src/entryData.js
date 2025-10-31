@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     img: {
       src: "https://nigestyh.github.io/gibralfaro.jpg",
       alt: "gibralfaro viewpoint",
@@ -11,17 +12,19 @@ export default [
     text: "Mount Gibralfaro is a hill located in Málaga in southeast Spain. It is a 130m high foothill of the Montes de Málaga, part of the Cordillera Penibética. At the top of the hill stands the Castle of Gibralfaro overlooking Málaga city and the Mediterranean Sea, and connected by a walled corridor to the Alcazaba of Málaga.",
   },
   {
+    id: 2,
     img: {
       src: "https://nigestyh.github.io/fasil-ghebbi.jpg",
       alt: "fasil ghebbi",
     },
-    country: "Ethipia",
+    country: "Ethiopia",
     title: "Fasil Ghebbi",
     googleMapLink: "https://maps.app.goo.gl/PHRxDuUiD7N9243q6",
     dates: "16 Apr, 2023 - 09 May, 2023",
     text: "The Fasil Ghebbi is a fortress located in Gondar, Amhara Region, Ethiopia. It was founded in the 17th century by Emperor Fasilides and was the home of Ethiopian emperors. Its unique architecture shows diverse influences including Portuguese, Hindu, and Arab characteristics",
   },
   {
+    id: 3,
     img: {
       src: "https://nigestyh.github.io/krka-national-park.jpg",
       alt: "krka national park",

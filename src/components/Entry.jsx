@@ -1,3 +1,4 @@
+import mapPin from "../assets/location-pin.png";
 function Entry(props) {
   return (
     <article className="journal-entry">
@@ -6,11 +7,7 @@ function Entry(props) {
       </div>
       <div>
         <div className="location-container">
-          <img
-            src="src/assets/location-pin.png"
-            alt="location-pin"
-            className="location-pin"
-          />
+          <img src={mapPin} alt="location-pin" className="location-pin" />
           <span className="country">{props.country}</span>
           <a href={props.googleMapLink} className="google-link" target="_blank">
             View on Google Maps
